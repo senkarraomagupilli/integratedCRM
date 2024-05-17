@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import logo from "../assets/logo.svg"
-import { updateAuthData } from "../Servicescalls";
+import { updateAuthData } from "../Servicescalls"; 
 
 const EnterYourCode = () => { 
   const [form, setForm] = useState({ otp: "" }); 
