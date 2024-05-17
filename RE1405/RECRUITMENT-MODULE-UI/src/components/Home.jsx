@@ -17,9 +17,9 @@ const Home = () => {
 
     return () => clearInterval(interval);
   }, []);
-      
+       
   return (
-    <div className='p-4'> 
+    <div className='p-4'>  
       <div className='p-4 px-8'>
 
         <ul class="flex flex-wrap   dark:text-white">

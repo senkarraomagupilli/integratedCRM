@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import logo from "../assets/logo.svg"
 import { updateAuthData } from "../Servicescalls";
 
-const EnterYourCode = () => {
+const EnterYourCode = () => { 
   const [form, setForm] = useState({ otp: "" });
   const [errorMessage, setErrorMessage] = useState("");
   const [resenderrorMessage, setResenderrorMessage] = useState("");
