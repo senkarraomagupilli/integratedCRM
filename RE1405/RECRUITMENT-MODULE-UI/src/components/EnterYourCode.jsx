@@ -4,7 +4,7 @@ import logo from "../assets/logo.svg"
 import { updateAuthData } from "../Servicescalls";
 
 const EnterYourCode = () => { 
-  const [form, setForm] = useState({ otp: "" });
+  const [form, setForm] = useState({ otp: "" }); 
   const [errorMessage, setErrorMessage] = useState("");
   const [resenderrorMessage, setResenderrorMessage] = useState("");
   const [toasterMessage, setToasterMessage] = useState(false);
